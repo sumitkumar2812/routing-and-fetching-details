@@ -1,0 +1,39 @@
+/* Write your CSS code here */
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.item-image {
+  height: 150px;
+  width: 110px;
+}
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.item-topic {
+  font-size: 10px;
+  color: #d3d3d3;
+  padding-left: 10px;
+}
+.item-title {
+  font-size: 16px;
+  color: #000000;
+  padding-left: 10px;
+}
+.author-name {
+  font-size: 10px;
+  color: #d3d3d3;
+  padding-left: 10px;
+}
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
